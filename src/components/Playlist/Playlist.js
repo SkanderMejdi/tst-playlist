@@ -32,12 +32,6 @@ class Playlist extends Component {
     };
   }
 
-  createList(list) {
-    return list.map(function(track, i) {
-      return <Track key={i} track={track} />
-    });
-  }
-
   componentDidMount() {
     this.order();
   }
