@@ -10,6 +10,26 @@ h2 {
   color: #919191;
 }
 
+.empty {
+  text-align: center;
+  padding: 30px;
+}
+
+.empty-title {
+  color: #3b3b3b;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.empty-subtitle {
+  color: #919191;
+  font-size: 25px;
+}
+
+.empty-picture {
+  margin-bottom: 30px;
+}
+
 .track {
   height: 90px;
   padding: 10px;

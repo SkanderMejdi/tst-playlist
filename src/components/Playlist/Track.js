@@ -26,7 +26,7 @@ class Track extends Component {
             <div
               className={"action-button list " + (track.priority ? 'active' : '')}
               onClick={() => this.props.priority(track.id)}>
-              <img src={'/pictures/list.png'} className="action-icon" alt='list' />
+              <img src='/pictures/list.png' className="action-icon" alt='list' />
             </div>
             <div
               className={"action-button heart " + (track.votes.userVoted ? 'active' : '')}
@@ -34,7 +34,7 @@ class Track extends Component {
               <div className="like">
                 {track.votes.count}
               </div>
-              <img src={'/pictures/heart.png'} className="action-icon" alt='heart' />
+              <img src='/pictures/heart.png' className="action-icon" alt='heart' />
             </div>
           </div>
           <div className="time">
@@ -45,7 +45,7 @@ class Track extends Component {
           className={track.priority ? 'priority-border' : 'priority-hide'}
           >
           <div className="priority-arrow">
-            <img src={'/pictures/arrow.png'} className="priority-icon" alt='arrow' />
+            <img src='/pictures/arrow.png' className="priority-icon" alt='arrow' />
           </div>
         </div>
       </div>

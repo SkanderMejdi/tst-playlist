@@ -86,6 +86,22 @@ class Playlist extends Component {
     const priority = this.priority.bind(this);
     var time = 0;
 
+    if (this.state.playlist.length === 0) {
+      return (
+        <div className="empty">
+          <img src='/pictures/disk.png' alt="empty" className="empty-picture"/>
+          <div className="empty-title">
+            Tracklist
+          </div>
+          <div className="empty-subtitle">
+            La tracklist est vide.
+            <br />
+            Ajoutez des titre depuis la recherche.
+          </div>
+        </div>
+      )
+    }
+
     return (
       <div>
         {this.state.playlist.map(function(track, i) {
