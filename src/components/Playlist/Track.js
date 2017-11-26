@@ -38,7 +38,7 @@ class Track extends Component {
             </div>
           </div>
           <div className="time">
-            dans {Math.round(track.duration / 60)} min
+            dans {Math.round(this.props.time / 60)} min
           </div>
         </div>
         <div

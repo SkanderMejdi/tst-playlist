@@ -84,11 +84,18 @@ class Playlist extends Component {
 
     const like = this.like.bind(this);
     const priority = this.priority.bind(this);
+    var time = 0;
 
     return (
       <div>
         {this.state.playlist.map(function(track, i) {
-          return <Track key={i} track={track} like={like} priority={priority} />
+          time += track.duration;
+          return <Track
+            key={i}
+            track={track}
+            like={like}
+            priority={priority}
+            time={time} />
         })}
       </div>
     );
