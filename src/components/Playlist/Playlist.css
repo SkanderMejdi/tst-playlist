@@ -1,0 +1,153 @@
+h1 {
+  font-size: 20px;
+  margin: 5px 0px 5px 0px;
+  color: #3b3b3b;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 5px 0px 5px 0px;
+  color: #919191;
+}
+
+.track {
+  height: 90px;
+  padding: 10px;
+  display: flex;
+  border-color: #eeeeee;
+  border-width: 1px;
+  border-bottom-style: solid;
+}
+
+.track-picture {
+  border-radius: 20%;
+  height: 100%;
+}
+
+.user {
+  text-align: center;
+  width: 125px;
+  height: 100%;
+}
+
+.user-picture {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.infos {
+  display: block;
+  height: calc(100% + 5px);
+  margin: -2.5px 0px;
+  width: calc(100% - 170px - 125px);
+}
+
+.infos-text {
+  padding-left: 10px;
+  height: 100%;
+}
+
+.infos-block {
+  height: 75%;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.action {
+  width: 170px;
+  height: 100%;
+}
+
+.action-elems {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.action-icon {
+  height: 100%;
+  width: auto;
+  filter: invert(100%);
+  margin-right: 2px;
+}
+
+.action-button {
+  text-align: center;
+  background: #343434;
+  color: white;
+  margin: auto;
+}
+
+.action-button.list {
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  padding: 10px;
+}
+
+.action-button.list.active {
+  background-color: #78d188;
+}
+
+.action-button.heart {
+  border-radius: 30px;
+  width: 80px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+}
+
+.action-button.heart.active {
+  background-color: #d06769;
+}
+
+.like {
+  font-size: 26px;
+  margin: auto;
+}
+
+.adder {
+  font-size: 16px;
+  color: #94bad9;
+}
+
+.time {
+  text-align: right;
+  width: 100%;
+  color: #aeaeae;
+}
+
+.priority-hide {
+  display: none;
+}
+
+.priority-border {
+  position: absolute;
+  margin-top: 70px;
+  width: 100%;
+  border-width: 5px;
+  margin-left: -10px;
+  border-bottom-style: solid;
+  border-color: #99daa4;
+}
+
+.priority-arrow {
+  width: 30px;
+  height: 30px;
+  background-color: #99daa4;
+}
+
+.priority-arrow::after {
+  position: absolute;
+  right: -50px;
+  content: "";
+  border-bottom: 25px solid white;
+  border-left: 25px solid white;
+  border-top: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.priority-icon {
+  height: 100%;
+  width: auto;
+  filter: invert(100%);
+}
